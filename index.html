@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>
+SURVEY FORM
+</title>
+<style>
+    form{
+        border: 10px solid black;
+        width: 50%;
+        height:75%;
+        margin: auto;
+        padding: 10px;
+        font-weight: bold;
+        text-size-adjust: 10px;
+    }
+    p{
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        font-size:xx-large;
+    }
+</style>    
+</head>
+<body>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">LOG IN</p>
+    <form id="survey-form">
+        NAME:<input type="text" id="name" name="NAME:" required placeholder="enter your name here"><br>
+        <br>E-MAIL:<input type="email" required placeholder="enter your email here"><br>
+        <br>MOBILE.NO:<input type="number" id="number" max="10" required placeholder="mobile no"><br>
+        <br> BRANCH:<select name="BRANCH">
+            <option name="01">CSE</option>
+            <option name="02">EEE</option>
+            <option name="03">ECE</option>
+            <option name="04">CIVIL</option>
+            <option name="05">MECHANICAL</option>
+            </select><br>
+        <br>GENDER: <br>&nbsp&nbsp&nbsp Male<input type="radio" name="r1" value="male"><br>
+                Female<input type="radio" name="r1" value="female"><br>
+        <br>COURSE:<br>&nbsp&nbsp&nbsp&nbsp&nbsp C<input type="checkbox" name="c1" value="c"><br>
+                &nbsp C++<input type="checkbox" name="c2" value="c++"><br>
+                JAVA<input type="checkbox" name="c3" value="java"><br>
+                &nbsp&nbsp&nbsp&nbsp C#<input type="checkbox" name="c4" value="c#"><br>
+            COMMENTS:<br> <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit">
+</body>        
+</html>
